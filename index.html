@@ -76,3 +76,111 @@
     </body>
 </html>
 
+
+<!-- Course Select Div Boxes -->
+<!-- Note: CSS needs adjustments to fit classes into .aside box  -->
+<!-- Note: ID and Value names may also need adjusting?? For javascript? -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <header class="header">
+        <!-- DROPDOWN FOR GRADE LEVEL -->
+     <label for="gradelvl" >Grade:</label>
+     <select name="gradelvl" id="gradelvl">
+     <option value="gten">10</option>
+     <option value="geleven">11</option>
+     <option value="gtwelve">12</option>
+     </select>
+       <span class="right">Menu</span>
+        </header>
+        
+        <!-- CLASSES ON SIDE -->
+
+        <aside class="sidebar">
+
+            <h1>COURSE SELECT</h1>
+            <!-- GRADE 10 STRANDS -->
+
+            <!-- LANGUAGE ARTS -->
+            <div class="course-la">
+                <label for="select-la">Language Arts</label>
+                <select name="select-la" id="select-la">
+                <option value="dash-1">10-1</option>
+                <option value="dash-2">10-2</option>
+                <option value="dash-3">10-3</option>
+                </select>
+            </div>
+
+            <!-- SOCIAL STUDIES -->
+            <div class="course-ss">
+                <label for="select-ss">Social Studies</label>
+                <select name="select-ss" id="select-ss">
+                <option value="dash-1">10-1</option>
+                <option value="dash-2">10-2</option>
+                <option value="dash-3">10-3</option>
+                </select>
+            </div>
+
+            <!-- MATHEMATICS -->
+            <div class="course-math">
+                <label for="select-math">Mathematics</label>
+                <select name="select-math" id="select-math">
+                <option value="dash-10">10C</option>
+                <option value="dash-15">15</option>
+                <option value="dash-3">10-3</option>
+                </select>
+            </div>
+
+            <!-- SCIENCE -->
+            <div class="course-sci">
+                <label for="select-sci">Science</label>
+                <select name="select-sci" id="select-sci">
+                <option value="dash-10">10</option>
+                <option value="dash-14">14</option>
+                <option value="dash-20">20</option>
+                <option value="dash-24">24</option>
+                </select>
+            </div>
+
+
+            <!-- BIOLOGY -->
+            <div class="course-bio">
+                <label for="select-bio">Biology</label>
+                <select name="select-bio" id="select-bio">
+                <option value="dash-20">20</option>
+                <option value="dash-30">30</option>
+                </select>
+            </div>
+
+            <!-- CHEMISTRY -->
+            <div class="course-chem">
+                <label for="select-chem">Chemistry</label>
+                <select name="select-chem" id="select-chem">
+                    <option value="dash-20">20</option>
+                    <option value="dash-30">30</option>
+                </select>
+            </div>
+
+            <!-- PHYSICS -->
+            <div class="course-physics">
+                <label for="select-physics">Physics</label>
+                <select name="select-physics" id="select-physics">
+                    <option value="dash-20">20</option>
+                    <option value="dash-30">30</option>
+                </select>
+            </div>
+
+            <!-- PHYSICAL EDUCATION + CALM -->
+            <div class="course-calm">
+                <label for="select-calm">CALM & Physical Education</label>
+                <select name="select-calm" id="select-calm">
+                    <option value="dash-10">10</option>
+                </select>
+            </div>
+        </aside>
+
+
